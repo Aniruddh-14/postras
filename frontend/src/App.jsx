@@ -2,8 +2,7 @@ import Navbar from './components/Navbar';
 import Hero from './sections/Hero';
 import HowItWorks from './sections/HowItWorks';
 import Platforms from './sections/Platforms';
-import SampleReport from './sections/SampleReport';
-import FAQ from './sections/FAQ';
+import StrategySection from './sections/StrategySection';
 import FooterCTA from './sections/FooterCTA';
 
 export default function App() {
@@ -16,9 +15,8 @@ export default function App() {
       <div className="section-divider max-w-6xl mx-auto" />
       <Platforms />
       <div className="section-divider max-w-6xl mx-auto" />
-      <SampleReport />
+      <StrategySection />
       <div className="section-divider max-w-6xl mx-auto" />
-      <FAQ />
       <FooterCTA />
     </div>
   );
