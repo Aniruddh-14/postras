@@ -27,7 +27,7 @@ export default function Navbar() {
           <div className="w-8 h-8 rounded-lg bg-[#006D3C] flex items-center justify-center shadow-lg shadow-[#006D3C]/10 transition-transform group-hover:scale-105">
             <Activity className="w-4 h-4 text-white" />
           </div>
-          <span className="font-heading font-extrabold text-[#FFFFFF] tracking-tight text-lg uppercase transition-opacity opacity-90 group-hover:opacity-100">Postera</span>
+          <span className="font-heading font-extrabold text-[#FFFFFF] tracking-tight text-lg uppercase transition-opacity opacity-90 group-hover:opacity-100">noick</span>
         </a>
 
         {/* NAV & CTA (RIGHT) */}
@@ -45,7 +45,7 @@ export default function Navbar() {
           </div>
           
           <a
-            href="mailto:hello@postera.ai"
+            href="mailto:hello@noick.in"
             className="pill-button pill-button-primary"
           >
             Contact

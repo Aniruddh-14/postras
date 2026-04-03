@@ -1,5 +1,5 @@
 """
-Postera Backend v2 — Multi-platform AI Content Strategist API.
+noick Backend v2 — Multi-platform AI Content Strategist API.
 """
 
 from fastapi import FastAPI
@@ -12,7 +12,7 @@ from engine.scorer import score_posts, get_confidence
 from engine.pattern_miner import mine_patterns, find_key_patterns
 from engine.diagnosis import diagnose
 
-app = FastAPI(title="Postera API", version="2.0.0")
+app = FastAPI(title="noick API", version="2.0.0")
 
 app.add_middleware(
     CORSMiddleware,
